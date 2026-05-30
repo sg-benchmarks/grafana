@@ -1,6 +1,6 @@
 module github.com/grafana/grafana
 
-go 1.23.1
+go 1.25.0
 
 // contains openapi encoder fixes. remove ASAP
 replace cuelang.org/go => github.com/grafana/cue v0.0.0-20230926092038-971951014e3f // @grafana/grafana-as-code
@@ -97,7 +97,7 @@ require (
 	// Check go.work file for details
 	github.com/grafana/grafana/pkg/promlib v0.0.6 // @grafana/observability-metrics
 	github.com/grafana/otel-profiling-go v0.5.1 // @grafana/grafana-backend-group
-	github.com/grafana/pyroscope-go/godeltaprof v0.1.8 // @grafana/observability-traces-and-profiling
+	github.com/grafana/pyroscope-go/godeltaprof v0.1.11 // @grafana/observability-traces-and-profiling
 	github.com/grafana/pyroscope/api v0.3.0 // @grafana/observability-traces-and-profiling
 	github.com/grafana/tempo v1.5.1-0.20240604192202-01f4bc8ac2d1 // @grafana/observability-traces-and-profiling
 	github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.0.1 // @grafana/plugins-platform-backend
@@ -335,7 +335,7 @@ require (
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/jszwedko/go-datemath v0.1.1-0.20230526204004-640a500621d6 // indirect
 	github.com/karlseguin/ccache/v3 v3.0.5 // indirect
-	github.com/klauspost/compress v1.17.9 // indirect
+	github.com/klauspost/compress v1.18.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
